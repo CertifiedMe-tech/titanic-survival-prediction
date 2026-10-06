@@ -34,9 +34,10 @@ sex = st.selectbox(
 
 age = st.number_input(
     "Age",
-    min_value=0.0,
-    max_value=100.0,
-    value=25.0
+    min_value=0,
+    max_value=100,
+    value=25,
+    step=1
 )
 
 sibsp = st.number_input(
